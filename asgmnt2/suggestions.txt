@@ -1,0 +1,27 @@
+1. naming conventions for:
+	a) html pages
+	
+2. validations on form
+	2.1 What is this data is for? 
+		Students
+	2.2 What are all details required?
+		a) personal details
+		b) education/qualifications
+		c) disclaimer
+	2.3 What data should be suggested in this form?
+		a) country, city, state, zip code
+	2.4 For multiple choice, should we allow others with the options?
+		Others means none of the above
+	2.5 Do we have to take all the details on the same form/page?
+		a) first form should take personal details
+		b) second form for educational details
+		c) take disclaimer
+		d) record all data
+	2.6 Data fields and its values must be confirmed.
+		a) scores for class X and XII must consider passing criteria
+			i.e. min 35, max 100.
+		b) address field 
+			H.No/Building name
+			Area, Road
+			Landmark
+		c) verification on email and mobile no.
