@@ -1,0 +1,29 @@
+Validation steps:
+
+1. Add extend() in observable definition (works only if using constructor) or in a separate function in on-load
+firstName = ko.observable().extend({ minLength: 2,
+                                      required: {
+                                        params: true,
+                                        message: "Please enter a first name.",
+                                       }});
+									   
+									   OR
+widget.validationRules = function(){									
+widget.firstName.extend({ minLength: 2,
+                                      required: {
+                                        params: true,
+                                        message: "Please enter a first name.",
+                                       }});
+}
+widget.validationRules();
+
+2. Add the below property in html where you want to display the error msg
+<span class="text-danger" data-bind="validationMessage: firstName">Please enter a first name.</span>
+
+3. Define below function in on-load,
+ widget.validateNow = function(){
+             firstName.isModified(true);
+         };
+
+4. Call the above function on submit
+widget.validateNow();
