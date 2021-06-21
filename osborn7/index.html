@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Osborn</title>
+
+    <link rel="canonical" href="https://icons.getbootstrap.com/icons/globe/">
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("mySidebar").style.width = "0";
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+
+            <div class="col-xs-3">
+                <img class="logo" src="https://www.osborn.com/file/general/osborn_logo.svg">
+
+            </div>
+
+            <div class="col-xs-9">
+  <div class="sidebar" style="display:none" id="mySidebar">
+                    
+                        <!-- <a onclick="w3_close()" class="closebtn">&times;</a>
+                </br> -->
+                <a href="#" class="baritem" onclick="w3_close()">
+                    <span class="glyphicon glyphicon-chevron-left backarrow" ></span>Back 
+                 </a>
+                     <a href="#" class="baritem">Products 
+                    <span class="glyphicon glyphicon-chevron-right productarrow"></span>
+                     </a>
+
+                        
+                         <a href="#"class="baritem">Application
+                            <span class="glyphicon glyphicon-chevron-right apparrow"></span>
+                         </a>
+                         <a href="#"class="baritem">Markets
+                            <span class="glyphicon glyphicon-chevron-right marketsarrow"></span>
+                         </a>
+                         <a href="#"class="baritem">Support
+                            <span class="glyphicon glyphicon-chevron-right supportarrow"></span>
+                         </a>
+                         <a href="#"class="baritem">About
+                            <span class="glyphicon glyphicon-chevron-right aboutarrow"></span>
+                         </a>
+                         <a href="#" class="baritem">Contact
+                            <span class="glyphicon glyphicon-chevron-right contactarrow"></span>
+                         </a>
+                    
+                </div>
+                <button type="button" class="navbar-toggle visible-sm visible-xs " onclick="w3_open()"
+                    data-toggle="collapse" data-target="#mySidebar" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+         
+                <nav>
+                    <ul class="menu">
+
+                        <li>
+
+                            <div class="Globe-dropdown">
+                              <img src="assets/ob-globe-icon.svg" alt="globe icon" class="img-responsive globe-icon">
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-globe"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                                </svg> -->
+
+                                <div class="Globe-dropdown-content">
+                                    <a
+                                        href="#"><b>Region</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Language</b></a>
+                                    <a href="#">North America &nbsp;&nbsp;&nbsp;&nbsp;English</a>
+                                    <a href="#">Global
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English</a>
+                                    <a
+                                        href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;German</a>
+
+                                </div>
+
+                                <span class="hidden-sm hidden-xs">Global-English</span>
+
+                                <span class="en hidden-lg hidden-md">EN </span>
+
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                        class="img-responsive mobsearch bi bi-search hidden-lg hidden-md"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg>
+                                </span>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="dropdown hidden-sm hidden-xs">
+                                About </br>
+
+
+                                <div class="dropdown-content">
+                                    <a href="#">Why Osborn</a>
+                                    <a href="#">Company History</a>
+                                    <a href="#">Careers</a>
+                                    <a href="#">News</a>
+                                    <a href="#">Events</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="hidden-sm hidden-xs">Contact</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="bottommenu" id="bottomnav">
+                        <li>
+                            <div class="searchSubmit hidden-sm hidden-xs"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg></div>
+                        </li>
+
+                        <div class="support-dropdown hidden-sm hidden-xs">
+                            <li>SUPPORT
+                                <div class="support-dropdown-content">
+                                    <a href="#">Literature</a>
+                                    <a href="#">Safety Recommendations</a>
+                                    <a href="#">Certificates</a>
+                                    <a href="#">Terms & Conditions</a>
+                                    <a href="#">NewsLetter</a>
+                                </div>
+                            </li>
+                        </div>
+
+                        <div class="markets-dropdown hidden-sm hidden-xs">
+                            <li>MARKETS
+                                <div class="markets-dropdown-content">
+                                    <a href="#">Automotive</a>
+                                    <a href="#">Oil and Gas</a>
+                                    <a href="#">ShipBuilding</a>
+                                    <a href="#">Building and Construction</a>
+                                    <a href="#">Metal Fabrication</a>
+                                    <a href="#">Rolling Mills</a>
+                                </div>
+                            </li>
+                        </div>
+
+                        <li class="hidden-sm hidden-xs">APPLICATION</li>
+
+
+                        <div class="product-dropdown hidden-sm hidden-xs">
+                            <li alt="Products">PRODUCTS
+                                <div class="product-dropdown-content">
+                                    <a href="#">Roller Technologies</a>
+                                    <a href="#">Load Runners</a>
+                                    <a href="#">Power Brushes</a>
+                                    <a href="#">Industrial Brushes</a>
+                                    <a href="#">Strip Brushes</a>
+                                    <a href="#">Cutting and Grinding Tools</a>
+                                    <a href="#">Polishing Tools and Compounds</a>
+                                    <a href="#">Diamond Tools</a>
+                                    <a href="#">Maintenance Brushes</a>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+   <!-- carousel -->
+   <div class="row">
+    <div id="osbornCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#osbornCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#osbornCarousel" data-slide-to="1"></li>
+        <li data-target="#osbornCarousel" data-slide-to="2"></li>
+        <li data-target="#osbornCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="img-responsive ob_heroImage"
+            src="assets/herobanner1.png"
+            alt="image1"
+          />
+          <div class="hero-text text-center">
+              <h3 class="heroImgcontent1">
+                  A PROMISE + PERFORMANCE BUILT ON
+              </h3>
+              <h1 class="heroImgcontent2">
+                  TRADITION
+              </h1>
+              <button class="btn-primary">
+                      Learn about our commitment to you
+              </button>
+          </div>
+        </div>
+
+         <div class="item">
+          <img class="img-responsive ob_heroImage"
+            src="https://www.osborn.com/ccstore/v1/images/?source=/file/general/ob-Herobanner1-2300-600-2.png&height=1200&width=1200"
+            alt="image2"
+          />
+          <div class="hero-text text-center">
+              <h3 class="heroImgcontent1">
+                  COST
+              </h3>
+              <h1 class="heroImgcontent2">
+                  REDUCTION
+              </h1>
+              <button class="btn-primary">
+                  Learn more
+              </button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="img-responsive ob_heroImage"
+            src="https://www.osborn.com/ccstore/v1/images/?source=/file/general/ob-Herobanner1-2300-600-3.png&height=1200&width=1200"
+            alt="image3"
+          />
+          <div class="hero-text text-center">
+              <h3 class="heroImgcontent1">
+                  HIGHLY-TRAINED
+              </h3>
+              <h1 class="heroImgcontent2">
+                  EXPERTS
+              </h1>
+                  <button class="btn-primary">
+                      Learn more
+                  </button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="img-responsive ob_heroImage"
+            src="https://www.osborn.com/ccstore/v1/images/?source=/file/general/ob-Herobanner1-2300-600-4.png&height=1200&width=1200"
+            alt="image4"
+          />
+          <div class="hero-text text-center">
+              <h3 class="heroImgcontent1">
+                  HIGHEST QUALITY &
+              </h3>
+              <h1 class="heroImgcontent2">
+                  SAFETY
+              </h1>
+                  <button class="btn-primary">
+                      Learn more
+                  </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="leftp left carousel-control hidden-xs hidden-sm" href="#osbornCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="rightp right carousel-control hidden-xs hidden-sm" href="#osbornCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--carousel end-->
+  </div>
+
+<!-- about us -->
+  <div class="row"  id="about-us">
+    <div class="container about-us-content">
+        <strong>Your challenge. Our solution. </strong>
+
+        Osborn offers the best solutions for your mechanical surface
+        treatment challenges. Our experts are highly trained to serve you
+        with the optimum off-the-shelf or customized tools, when and where
+        you need them. Unlike others, we help you optimize your process,
+        meet the highest quality and safety requirements and reduce your
+        costs.
+      <div class="col-xs-12 link">
+        <a href=#>About Us</a>
+      </div>
+    </div>
+</div>
+
+<!-- all products -->
+
+<div class="row">
+<div class="container products">
+<h3 class="text-center">PRODUCTS</h3>
+ <div class="row">
+   <div class="col-md-3">
+     <div class="thumbnail">
+       <a href="/w3images/lights.jpg" target="_blank">
+         <img src="assets/a.png"  class="img-responsive" alt="Lights" >
+       </a>
+       <div class="text-center product-name">
+        <h4>Roller Technologies</h4>
+       <button>View Products</button>
+     </div>
+     </div>
+     </div>
+
+     
+   <div class="col-md-3">
+     <div class="thumbnail">
+       <a href="https://www.osborn.com/ccstore/v1/images/?source=/file/v1623653639943/collections/LR001.png&height=130&width=130" target="_blank">
+         <img src="assets/b.png"  class="img-responsive" alt="Nature" >
+       </a>
+       <div class="text-center product-name">
+        <h4>Load Runners</h4>
+       <button>View Products</button>
+     </div>
+     </div>
+    </div>
+
+
+   <div class="col-md-3">
+     <div class="thumbnail depali">    
+           <a href="/w3images/fjords.jpg" target="_blank">
+         <img src="assets\c.png"  class="img-responsive" alt="Power Brushes">
+       </a>
+       <div class="text-center product-name">
+        <h4>Power Brushes</h4>
+      <p> <button>View Products</button><p>
+     </div>
+    </div></div>
+
+
+   <div class="col-md-3">
+     <div class="thumbnail depali">
+       <a href="/w3images/fjords.jpg" target="_blank">
+         <img src="assets/d1.jpg"  class="img-responsive" alt="Industrial Brushes">
+       </a>
+      <div class="text-center product-name">
+      <h4>Industrial Brushes</h4>
+     <button>View Products</button>
+       </div>
+     </div>
+    </div></div>   
+
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="/w3images/fjords.jpg" target="_blank">
+        <img src="assets\e.png"  class="img-responsive" alt="Strip Brushes">
+      </a>
+       <div class="text-center product-name">
+       <h4>Strip Brushes</h4>
+      <button>View Products</button>
+    </div>
+  </div>
+  </div>
+
+  
+
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="/w3images/fjords.jpg" target="_blank">
+        <img src="assets\download6.jpg"   class="img-responsive" alt="Cutting & Grinding Tools">
+      </a>
+      <div class="text-center product-name">
+        <h4>Cutting & Grinding Tools</h4>
+       <button>View Products</button>
+     </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="thumbnail ">
+      <a href="/w3images/fjords.jpg" target="_blank">
+        <img src="assets\download7.jpg"  class="img-responsive" alt="Polishing Tools & Compounds">
+      </a>
+      <div class="text-center product-name">
+        <h4>Polishing Tools & Compounds</h4>
+       <button>View Products</button>
+     </div>
+     </div>
+    </div>
+
+
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="assets\download8.jpg"  class="img-responsive" alt="Diamond Tool">
+        </a>
+        <div class="text-center product-name">
+          <h4>Diamond Tools</h4>
+         <button>View Products</button>
+       </div>
+       </div>
+      </div>
+    
+
+      <div class="col-md-3">
+        <div class="thumbnail ">
+          <a href="/w3images/fjords.jpg" target="_blank">
+            <img src="assets\download9.jpg"  class="img-responsive "  alt="Diamond Tool">
+          </a>
+          <div class="text-center product-name">
+            <h4>Maintenance Brushes</h4>
+           <button>View Products</button>
+         </div>
+         </div>
+        </div>
+      
+  
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- news and EVENTS -->
+
+<div class="row" id="news-and-events">
+  <div class="container news">
+    <h3 class="text-center">NEWS AND EVENTS </h3>
+
+  <div class="col-md-4 col-xs-12">
+    <div class="news-wrapper">
+      <div class="item-image">
+        <img class="img-responsive" src="assets\downloada.jpg" alt="Lights" >
+        <span class="banner_label">Press Release</span>
+      </div>
+      <p class="item-description">
+        (Richmond, Indiana) Osborn, the world’s largest and most complete solution provider of high-quality surface treatment and finishing products, is pleased to announce that it has appointed Brian Cassady as its new Chief Executive Officer. Cassady joins Osborn after serving as President and CEO of Municipal Parking Services, Inc., a software-based parking management and violation detection systems technology
+      </p>
+        <p class="item-date">March 4, 2021</p>
+    </div>          
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div class="news-wrapper">
+      <div class="item-image">
+        <img class="img-responsive" src="assets\downloadc.jpg" alt="Lights" >
+        <span class="banner_label">Product News</span>
+      </div>
+      <p class="item-description">
+        (Burgwald/Wunsiedel). Good things can always be made better. This is how Osborn develops products in terms of performance and quality. Osborn is now presenting a new product line under the title "Xtreme". It includes both cut-off wheels and brushes with significantly increased performance characteristics. In the long term, the "Xtreme" designation will also replace the "Evolution" quality level, which has so far
+      </p>
+        <p class="item-date">March 16, 2021</p>
+    </div>          
+  </div>
+  <div class="col-md-4 col-xs-12">
+    <div class="news-wrapper">
+      <div class="item-image">
+        <img class="img-responsive" src="assets\downloadb.jpg" alt="Lights" >
+        <span class="banner_label">Company News</span>
+      </div>
+      <p class="item-description">
+        (Burgwald/Wunsiedel). All Dronco product labels have received a new design. Tidy and fresh, with clear user information and internationally understandable pictograms. Instead of the Dronco logo, they now carry the Osborn trademark. There are no further changes - the products have the same high quality as before. After a phase in which the Osborn and Dronco companies appeared with both trademarks (e.g. in
+      </p>
+        <p class="item-date">March 1, 2020</p>
+    </div>          
+  </div>
+</div>
+</div>
+
+<!-- footer -->
+
+<footer>
+  <div id="footer-container">
+      <div class="col-2 hidden-xs ">
+          <p class="copyright">&copy; 2020 Osborn.All Rights Reserved.</p>
+      </div>
+      <div class="col-2 hidden-xs">
+          <nav>
+              <ul class="footer-menu">
+                  <li>Careers</li>
+                  <li>Privacy Policy</li>
+                  <li>Terms & Conditions</li>
+                  <li>Legal Information</li>
+              </ul>
+          </nav>
+      </div>
+   <div class="visible-xs">
+       <nav>
+           <ul class="mobversion">
+               <li>Careers</li>
+               <li>Privacy Policy</li>
+               <li>Terms & Conditions</li>
+               <li>Legal Information</li>
+               <li>&copy; 2020 Osborn.All Rights Reserved.</li>
+           </ul>
+       </nav>
+   </div>
+  </div>
+
+  
+</footer>
+
+</body>
+
+</html>
